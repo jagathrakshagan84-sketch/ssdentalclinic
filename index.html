@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SS Dental Care | Dental Clinic in Ammapettai, Tamil Nadu</title>
+  <meta name="description" content="SS Dental Care in Ammapettai provides professional dental care and a range of dental treatments by Dr. Gowtham, BDS. Contact us to book an appointment.">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/jpg" href="assets/logo.jpg">
+  
+  <!-- Dentist / LocalBusiness Structured Data JSON-LD for local SEO -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Dentist",
+      "name": "SS Dental Care",
+      "image": "https://ss-dental-care.example.com/assets/logo.jpg",
+      "priceRange": "$$",
+      "telephone": "+91-8508333337",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Ammapettai",
+        "addressLocality": "Ammapettai",
+        "addressRegion": "Tamil Nadu",
+        "postalCode": "638311",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "11.5833",
+        "longitude": "77.7833"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "10:00",
+          "closes": "19:00"
+        }
+      ],
+      "url": "https://ss-dental-care.example.com",
+      "hasMap": "https://maps.app.goo.gl/SRnsoGhdWAEZ3yTv8",
+      "founder": {
+        "@type": "Person",
+        "name": "Dr. Gowtham",
+        "jobTitle": "Dentist",
+        "alumniOf": {
+          "@type": "EducationalOrganization",
+          "name": "BDS (Bachelor of Dental Surgery)"
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+
+  <!-- Responsive Header -->
+  <header class="header-nav">
+    <div class="container header-container">
+      <a href="index.html" class="logo-link">
+        <img src="assets/clinic logo/media_1787406552321.jpg" alt="SS Dental Care Logo" class="logo-img">
+        <span>SS Dental Care</span>
+      </a>
+      
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="treatments.html" class="nav-link">Treatments</a></li>
+          <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      
+      <div class="header-cta">
+        <a href="#" class="btn btn-primary trigger-appointment">Book Appointment</a>
+      </div>
+      
+      <button class="burger-btn" id="burger-btn" aria-label="Toggle Navigation menu">
+        <div class="burger-icon">
+          <span class="burger-bar"></span>
+          <span class="burger-bar"></span>
+          <span class="burger-bar"></span>
+        </div>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <nav class="mobile-nav" id="mobile-nav">
+    <ul class="mobile-links">
+      <li><a href="index.html" class="mobile-link active">Home</a></li>
+      <li><a href="about.html" class="mobile-link">About</a></li>
+      <li><a href="treatments.html" class="mobile-link">Treatments</a></li>
+      <li><a href="gallery.html" class="mobile-link">Gallery</a></li>
+      <li><a href="contact.html" class="mobile-link">Contact</a></li>
+    </ul>
+    <div class="mobile-ctas">
+      <a href="tel:8508333337" class="btn btn-secondary">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        Call Now
+      </a>
+      <a href="https://wa.me/918508333337?text=Hello%20SS%20Dental%20Care%2C%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" class="btn btn-primary" style="background-color: #25d366; border-color: #25d366;">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+        WhatsApp Appointment
+      </a>
+    </div>
+  </nav>
+  <div class="overlay" id="overlay"></div>
+
+  <!-- Hero Section -->
+  <section class="section animate-fade-in">
+    <div class="container grid-2">
+      <div class="hero-content">
+        <span class="badge">SS DENTAL CARE</span>
+        <h1 class="hero-title">Your Smile Deserves Expert Dental Care</h1>
+        <p class="hero-description">Professional and personalized dental care in a clean, comfortable clinical environment. Led by Dr. Gowtham, BDS, dedicated to keeping your gums and teeth healthy.</p>
+        <div class="hero-actions">
+          <a href="#" class="btn btn-primary trigger-appointment">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            Book Appointment
+          </a>
+          <a href="tel:8508333337" class="btn btn-secondary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            Call 8508333337
+          </a>
+        </div>
+      </div>
+      <div class="hero-image-wrapper">
+        <!-- Displayed real clinic photo with Dr. Gowtham in action -->
+        <img src="assets/clinic real photo/media_1787406575044.jpg" alt="Dr. Gowtham treating a patient at SS Dental Care Clinic" class="hero-img">
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Trust Section -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="grid-4">
+        <div class="trust-card">
+          <div class="trust-icon-wrapper">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3 class="trust-title">Professional Dental Care</h3>
+          <p>Personalized care focused entirely on your specific dental and gum health needs.</p>
+        </div>
+        
+        <div class="trust-card">
+          <div class="trust-icon-wrapper">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+          </div>
+          <h3 class="trust-title">Experienced Care</h3>
+          <p>Dr. Gowtham, BDS, providing gentle dental diagnostics and clinical procedures.</p>
+        </div>
+        
+        <div class="trust-card">
+          <div class="trust-icon-wrapper">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          </div>
+          <h3 class="trust-title">Comfortable Environment</h3>
+          <p>A clean, modern, and highly welcoming clinical environment to ease your anxiety.</p>
+        </div>
+        
+        <div class="trust-card">
+          <div class="trust-icon-wrapper">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </div>
+          <h3 class="trust-title">Easy Appointment</h3>
+          <p>Book your visit conveniently online through WhatsApp or with a direct phone call.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Snippet Section -->
+  <section class="section">
+    <div class="container grid-2">
+      <div class="about-image">
+        <!-- Displayed real clinic photograph inside rounded borders -->
+        <img src="assets/clinic real photo/media_1787406575038.jpg" alt="SS Dental Care Clinical Setup and Equipment" class="about-img">
+      </div>
+      <div class="hero-content">
+        <span class="badge">ABOUT CLINIC</span>
+        <h2>About SS Dental Care</h2>
+        <p>SS Dental Care provides professional dental care with a focus on patient comfort, clear communication, and quality treatment.</p>
+        <p>Led by Dr. Gowtham, BDS, the clinic provides a range of basic and essential dental treatments in a clean and comfortable environment. We prioritize clean sterilizations and patient satisfaction.</p>
+        <div style="margin-top: 1rem;">
+          <a href="about.html" class="btn btn-secondary" style="padding-left: 0; border: none; box-shadow: none; background: transparent; color: var(--color-accent-cyan);">
+            Meet Dr. Gowtham &rarr;
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Doctor Showcase Section -->
+  <section class="section section-alt doctor-section">
+    <div class="container">
+      <div class="doctor-card">
+        <div class="doctor-image-container">
+          <img src="assets/Doctor/media_1787406609802.jpg" alt="Portrait of Dr. Gowtham, BDS, Dentist at SS Dental Care" class="doctor-photo">
+        </div>
+        <div class="doctor-info">
+          <span class="badge">MEET YOUR DENTIST</span>
+          <h2>Dr. Gowtham, BDS</h2>
+          <p>Dr. Gowtham, BDS is an experienced dental professional working in the field of dentistry, providing patient-focused dental care at SS Dental Care. He specializes in understanding patient concerns, resolving severe dental aches, and administering gentle, highly effective local dental treatments.</p>
+          <div class="doctor-tagline">
+            <span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              Experienced Dental Care
+            </span>
+            <span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              Patient-Focused Approach
+            </span>
+            <span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              Professional Treatment
+            </span>
+          </div>
+          <div style="margin-top: 1.5rem;">
+            <a href="#" class="btn btn-primary trigger-appointment">Book an Appointment</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Patient Reviews Section -->
+  <section class="section">
+    <div class="container">
+      <div class="text-center max-w-2xl mb-12">
+        <span class="badge">TESTIMONIALS</span>
+        <h2>What Our Patients Say</h2>
+        <p>Read real, verified reviews from people who visited SS Dental Care for their dental checkups, extractions, and smile makeovers.</p>
+      </div>
+      
+      <div class="reviews-grid mb-8">
+        <!-- Review 1 -->
+        <div class="review-card">
+          <div class="review-stars">
+            &#9733;&#9733;&#9733;&#9733;&#9733;
+          </div>
+          <p class="review-text">“Best service was provided. He has helped my mom recover from hectic pain and now she’s doing really well.”</p>
+          <span class="review-author">Parvin Ageez</span>
+        </div>
+        
+        <!-- Review 2 -->
+        <div class="review-card">
+          <div class="review-stars">
+            &#9733;&#9733;&#9733;&#9733;&#9733;
+          </div>
+          <p class="review-text">“I had a great experience with Dr. Gowtham. I was feeling very nervous about getting a root canal, but the dentist was incredibly gentle and explained every step of the process. The clinic is clean, modern, and very comfortable. Highly recommended!”</p>
+          <span class="review-author">Google Review</span>
+        </div>
+        
+        <!-- Review 3 -->
+        <div class="review-card">
+          <div class="review-stars">
+            &#9733;&#9733;&#9733;&#9733;&#9733;
+          </div>
+          <p class="review-text">“He provides excellent treatment. The way he communicates with patients and his approach towards them are truly beyond words. He is genuinely a very good doctor🌷”</p>
+          <span class="review-author">Mariyastella Kulandaiyesu</span>
+        </div>
+      </div>
+      
+      <div class="text-center">
+        <a href="https://maps.app.goo.gl/SRnsoGhdWAEZ3yTv8" target="_blank" class="btn btn-secondary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          View us on Google Maps
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Appointment Modal -->
+  <div class="modal" id="appointment-modal">
+    <div class="modal-backdrop" id="modal-backdrop"></div>
+    <div class="modal-container">
+      <div class="modal-header">
+        <h3 class="modal-title">Book an Appointment</h3>
+        <button class="modal-close-btn" id="modal-close-btn" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p class="mb-4" style="font-size: 0.9rem;">Fill in your details below. Clicking submit will open WhatsApp to send your request directly to the clinic.</p>
+        
+        <form id="appointment-form">
+          <div class="form-group">
+            <label for="apt-name" class="form-label">Patient Name *</label>
+            <input type="text" id="apt-name" class="form-input" placeholder="Enter your full name" required>
+            <span class="form-error-msg">Please enter patient name</span>
+          </div>
+          
+          <div class="form-group">
+            <label for="apt-phone" class="form-label">Phone Number *</label>
+            <input type="tel" id="apt-phone" class="form-input" placeholder="e.g. 9876543210" required>
+            <span class="form-error-msg">Please enter a valid 10-digit mobile number</span>
+          </div>
+          
+          <div class="form-group">
+            <label for="apt-treatment" class="form-label">Select Treatment *</label>
+            <select id="apt-treatment" class="form-input" required>
+              <option value="" disabled selected>Choose a dental service</option>
+              <option value="implant">Dental Implants</option>
+              <option value="root-canal">Root Canal Treatment</option>
+              <option value="crown-bridge">Crowns & Bridges</option>
+              <option value="wisdom">Wisdom Tooth Treatment</option>
+              <option value="denture">Dentures</option>
+              <option value="orthodontics">Orthodontic / Clear Aligner Care</option>
+              <option value="general">General Dental Care</option>
+              <option value="other">Other Dental Treatment</option>
+            </select>
+            <span class="form-error-msg">Please select a treatment</span>
+          </div>
+          
+          <div class="form-row">
+            <div class="form-group">
+              <label for="apt-date" class="form-label">Preferred Date *</label>
+              <input type="date" id="apt-date" class="form-input" required>
+              <span class="form-error-msg">Please pick a date</span>
+            </div>
+            
+            <div class="form-group">
+              <label for="apt-time" class="form-label">Preferred Time Slot *</label>
+              <select id="apt-time" class="form-input" required>
+                <option value="" disabled selected>Select time</option>
+                <option value="morning-1">10:00 AM - 12:00 PM</option>
+                <option value="morning-2">12:00 PM - 02:00 PM</option>
+                <option value="evening-1">04:00 PM - 06:00 PM</option>
+                <option value="evening-2">06:00 PM - 07:00 PM</option>
+              </select>
+              <span class="form-error-msg">Please pick a time slot</span>
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="apt-message" class="form-label">Message (Optional)</label>
+            <textarea id="apt-message" class="form-input" rows="3" placeholder="Describe symptoms or treatment history..."></textarea>
+          </div>
+          
+          <div style="margin-top: 1.5rem;">
+            <button type="submit" class="btn btn-primary" style="width: 100%;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+              Send Appointment Request via WhatsApp
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Mobile CTA Bar -->
+  <div class="mobile-cta-bar" id="mobile-cta">
+    <a href="tel:8508333337" class="mobile-cta-btn mobile-cta-phone">
+      📞 Call Clinic
+    </a>
+    <a href="https://wa.me/918508333337?text=Hello%20SS%20Dental%20Care%2C%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" class="mobile-cta-btn mobile-cta-whatsapp">
+      💬 WhatsApp Us
+    </a>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <h3 style="font-family: var(--font-heading); font-size: 1.5rem; color: var(--color-text-charcoal); margin-bottom: 0.5rem;">SS Dental Care</h3>
+        <p style="font-size: 0.95rem; line-height: 1.6;">Professional dental care with a focus on comfort, communication and quality treatment. Led by Dr. Gowtham, BDS.</p>
+      </div>
+      
+      <div class="footer-col">
+        <h4 class="footer-title">Quick Links</h4>
+        <ul class="footer-links-list">
+          <li><a href="index.html" class="footer-link-item">Home</a></li>
+          <li><a href="about.html" class="footer-link-item">About Clinic</a></li>
+          <li><a href="treatments.html" class="footer-link-item">Treatments</a></li>
+          <li><a href="gallery.html" class="footer-link-item">Photo Gallery</a></li>
+          <li><a href="contact.html" class="footer-link-item">Contact Us</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-col">
+        <h4 class="footer-title">Opening Hours</h4>
+        <table class="footer-hours-table">
+          <tr class="footer-hours-row">
+            <td>Monday – Saturday</td>
+            <td>10:00 AM – 7:00 PM</td>
+          </tr>
+          <tr class="footer-hours-row">
+            <td>Sunday</td>
+            <td>Closed</td>
+          </tr>
+        </table>
+        <p style="font-size: 0.85rem; margin-top: 0.5rem; color: var(--color-text-slate);">
+          <strong>Phone / WhatsApp:</strong> 8508333337<br>
+          <strong>Address:</strong> JPGW+J2H, Ammapettai, TN 638311
+        </p>
+      </div>
+    </div>
+    
+    <div class="container footer-bottom">
+      <p>&copy; 2026 SS Dental Care. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/appointment.js"></script>
+</body>
+</html>
