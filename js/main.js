@@ -10,7 +10,7 @@ const CLINIC_CONFIG = {
   timings: {
     weekdays: "10:00 AM – 7:00 PM",
     saturday: "10:00 AM – 7:00 PM",
-    sunday: "Closed"
+    sunday: "Appointment Only"
   }
 };
 

@@ -1,0 +1,6 @@
+# Exclude compressed GoDaddy release package
+SSDentalCare.zip
+
+# System files
+.DS_Store
+Thumbs.db

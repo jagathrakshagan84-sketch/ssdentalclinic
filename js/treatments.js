@@ -3,7 +3,7 @@
 const TREATMENTS_DATA = {
   "implants": {
     title: "Dental Implants",
-    image: "assets/treatements/WhatsApp Image 2026-08-18 at 8.02.01 PM.jpeg",
+    image: "./images/treatments/treatment_9.jpg",
     description: "Replace missing teeth with permanent, natural-looking implant restorations.",
     whatIsIt: "A dental implant is a biocompatible titanium post surgically positioned into the jawbone beneath your gums. It acts as an artificial root that allows the dentist to mount replacement teeth or a bridge into that area, providing a highly stable, permanent solution.",
     whenConsidered: "Indicated when you have one or more missing teeth, a fully matured jawbone, healthy oral tissues, and do not wish to wear standard dentures or want to secure dynamic bridge fixtures.",
@@ -12,7 +12,7 @@ const TREATMENTS_DATA = {
   },
   "root-canal": {
     title: "Root Canal Treatment",
-    image: "assets/clinic real photo/media_1787406575038.jpg",
+    image: "./images/treatment_green.jpg",
     description: "Save damaged or infected teeth and eliminate severe dental pain.",
     whatIsIt: "A root canal treatment (RCT) is a dental procedure designed to salvage a severely decayed, cracked, or infected tooth. The therapy involves removing the infected pulp tissue, disinfecting the internal root canals, and sealing the chamber.",
     whenConsidered: "Typically necessary if you experience intense throbbing tooth pain, persistent sensitivity to hot or cold foods, discoloration of the tooth, or localized gum swelling and tenderness.",
@@ -21,7 +21,7 @@ const TREATMENTS_DATA = {
   },
   "crowns-bridges": {
     title: "Crowns & Bridges",
-    image: "assets/treatements/WhatsApp Image 2026-08-18 at 8.02.00 PM.jpeg",
+    image: "./images/treatments/treatment_7.jpg",
     description: "Restore damaged teeth and bridge empty gaps to maintain jaw alignment.",
     whatIsIt: "Crowns are protective caps placed over damaged, cracked, or root-canal-treated teeth to restore strength. Bridges are dental prostheses that span across empty spaces left by missing teeth, anchored firmly to adjacent teeth.",
     whenConsidered: "Recommended for teeth weakened by decay or fractures, to cover dental implants, or to replace missing teeth when implants are not selected, restoring normal bite and chew functions.",
@@ -30,7 +30,7 @@ const TREATMENTS_DATA = {
   },
   "wisdom-tooth": {
     title: "Wisdom Tooth Treatment",
-    image: "assets/clinic real photo/media_1787406575044.jpg",
+    image: "./images/treatment_blue.jpg",
     description: "Safe extraction of impacted or painful wisdom teeth.",
     whatIsIt: "Wisdom tooth treatment involves diagnosing and extracting the third set of molars at the back of your mouth, which often lack sufficient room to erupt properly and become impacted.",
     whenConsidered: "Required if wisdom teeth grow at odd angles, cause severe pain, damage neighboring molars, form cysts, or collect bacteria leading to infections and decay due to difficulty in cleaning.",
@@ -39,7 +39,7 @@ const TREATMENTS_DATA = {
   },
   "dentures": {
     title: "Dentures",
-    image: "assets/treatements/WhatsApp Image 2026-08-18 at 8.02.00 PM (2).jpeg",
+    image: "./images/treatments/treatment_6.jpg",
     description: "High-quality partial and full removable dentures for comfortable eating.",
     whatIsIt: "Dentures are custom-crafted removable prosthetic appliances designed to replace missing teeth and surrounding gum tissues, restoring facial structure and speech capabilities.",
     whenConsidered: "Ideal for patients who have lost all or most of their teeth due to gum disease, severe decay, or injury, seeking a budget-friendly option to restore chewing ability.",
@@ -48,7 +48,7 @@ const TREATMENTS_DATA = {
   },
   "aligners": {
     title: "Orthodontic & Clear Aligner Care",
-    image: "assets/treatements/WhatsApp Image 2026-08-18 at 8.01.59 PM.jpeg",
+    image: "./images/treatments/treatment_4.jpg",
     description: "Straighten misaligned teeth discreetly using premium invisible aligners.",
     whatIsIt: "Orthodontic care corrects teeth alignment. Clear aligners are series of custom-made, transparent, medical-grade plastic trays that fit snugly over your teeth, gently shifting them into their ideal positions without metallic brackets.",
     whenConsidered: "Considered for correcting crowded teeth, large gaps, crossbites, overbites, or underbites in patients looking for a highly hygienic, removable, and invisible alternative to traditional metal braces.",
@@ -57,7 +57,7 @@ const TREATMENTS_DATA = {
   },
   "general-care": {
     title: "General Dental Care",
-    image: "assets/treatements/WhatsApp Image 2026-08-18 at 8.02.01 PM (1).jpeg",
+    image: "./images/treatments/treatment_8.jpg",
     description: "Routine checkups, scaling, polishing, and composite tooth-colored fillings.",
     whatIsIt: "General dental care focuses on preventive treatments. It includes professional ultrasonic cleaning (scaling) to remove hard tartar deposits, polishing to eliminate surface stains, and placing tooth-colored dental composites for cavities.",
     whenConsidered: "Recommended once every 6 months for all patients to maintain optimal hygiene, prevent gum bleeding (gingivitis), and catch dental caries early before they damage deep pulp tissue.",
@@ -66,7 +66,7 @@ const TREATMENTS_DATA = {
   },
   "other-treatments": {
     title: "Other Dental Treatments",
-    image: "assets/treatements/WhatsApp Image 2026-08-18 at 8.02.02 PM.jpeg",
+    image: "./images/treatments/treatment_10.jpg",
     description: "Fluoride applications, pediatric dentistry, and emergency dental pain relief.",
     whatIsIt: "Includes a wide array of basic support services such as desensitizing therapy for sensitive teeth, fluoride varnish applications to prevent decay in kids, emergency tooth extractions, and nightguards for teeth grinding.",
     whenConsidered: "When you experience specific dental ailments like child tooth decay, acute nightly dental grinding, or sudden dental trauma requiring emergency support.",
